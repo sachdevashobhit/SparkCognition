@@ -1,0 +1,77 @@
+instance: 1
+original_name: homeid=26
+elec_meters:
+  1:
+    site_meter: true
+    device_model: eGauge
+    data_location: /building1.csv
+  2:
+    submeter_of: 1
+    device_model: eGauge
+    data_location: /building1.csv
+  3:
+    submeter_of: 1
+    device_model: eGauge
+    data_location: /building1.csv
+  4:
+    submeter_of: 1
+    device_model: eGauge
+    data_location: /building1.csv
+  5:
+    submeter_of: 1
+    device_model: eGauge
+    data_location: /building1.csv
+  6:
+    submeter_of: 1
+    device_model: eGauge
+    data_location: /building1.csv
+  7:
+    submeter_of: 1
+    device_model: eGauge
+    data_location: /building1.csv
+  8:
+    submeter_of: 1
+    device_model: eGauge
+    data_location: /building1.csv
+
+appliances:
+  - type: air conditioner
+    instance: 1
+    meters: [2]
+    original_name:  air1, air2, air3
+
+  - type: electric furnace
+    instance: 1
+    meters: [3]
+    original_name: furnace1 and more?
+
+  - type: light
+    instance: 1
+    meters: [4]
+    original_name:  light_plugs
+
+  - type: electric oven
+    instance: 1
+    meters: [5]
+    original_name: oven
+
+  - type: fridge
+    instance: 1
+    meters: [6]
+    original_name:  refrigerator
+
+  - type: electric vehicle
+    instance: 1
+    meters: [7]
+    original_name:  car
+
+  - type: CE appliance
+    instance: 1
+    meters: [8]
+    original_name:  others
+
+
+
+
+
+
